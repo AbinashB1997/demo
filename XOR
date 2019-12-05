@@ -1,0 +1,17 @@
+You r given 2 numbers(N and X)
+Create an array of N natural nums such that the XOR of these nums = X
+The sum of all the nums that are available in the array is as min as possible.
+If there exist multiple arrays, print the one which is smallest among them.
+
+Array 'A' is less than Array 'B' if for any idx 'i', A[i] < B[i] and for all
+indices that are less than i, A[i] == B[i]
+
+Sample inp:
+3 2
+Sample Out:
+1 1 2
+
+Explanation: 
+
+We have to print 3 natural numbers having the minimum sum, such that their 
+XOR is 2 & print them in the increasing order. Thus N spaced nums are [1, 1, 2]

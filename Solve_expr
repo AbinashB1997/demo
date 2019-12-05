@@ -1,0 +1,19 @@
+Given an expr: Drawn
+
+You are given 2 nums L and R. 
+YOur task is to determine the count of numbers X in L <= X <= R 
+such that F(X) is prime
+
+Sample inp:
+TestCase = 2
+2 3
+5 5
+Output:
+2
+1
+
+Exp:
+Case 1:
+F(2) = 2, F(3) = 2, thus ans = 2;
+Case 2:
+F(5) = 2, thus ans = 1

@@ -1,0 +1,26 @@
+Given 3 integers A, B, and C. 
+
+A special set contains the nums that are multiples of any of these 3 integers 
+in sorted order.(Because elements residing in set are usually in sorted order) 
+
+A Kth num is available in a special set. Your task is to determine that Kth 
+numof the special set.
+
+
+Sample inp:
+TestCase = 2
+1 2 3 4
+2 4 5 5 
+
+Sample out:
+4
+8
+
+Explanation:
+for TC-1:
+Special set = {1, 2, 3, 4, 5, 6, 7, . . . . }
+Hence, 4th num = 4.
+
+for TC-2:
+Special set = {2, 4, 5, 6, 8, 10, 12, 14, 15, . . . . }
+Hence, 5th num = 8
